@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ragumaran - Software Engineer</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+
+      header {
+        background-color: #2c3e50;
+        color: #fff;
+        text-align: center;
+        padding: 60px 20px;
+      }
+
+      header h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+
+      header p {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+
+      section {
+        padding: 50px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      h2 {
+        font-size: 2.5em;
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;
+      }
+
+      .card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+      }
+
+      .card h3 {
+        font-size: 1.5em;
+        color: #2c3e50;
+        margin-bottom: 15px;
+      }
+
+      .card ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .card ul li {
+        font-size: 1.1em;
+        margin-bottom: 12px;
+        color: #465462;
+      }
+
+      .card ul li span {
+        font-weight: bold;
+        color: #48535d;
+      }
+
+      footer {
+        background-color: #4d565f;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: 1em;
+      }
+
+      footer a {
+        color: #ecf0f1;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2.5em;
+        }
+
+        header p {
+          font-size: 1em;
+        }
+
+        h2 {
+          font-size: 2em;
+        }
+
+        .content {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 480px) {
+        header h1 {
+          font-size: 2em;
+        }
+
+        header p {
+          font-size: 0.9em;
+        }
+
+        h2 {
+          font-size: 1.8em;
+        }
+
+        .card ul li {
+          font-size: 1em;
+        }
+      }
+
+      #experience .content {
+        display: flex;
+      }
+
+      .download-btn {
+        background-color: #2980b9;
+        color: #fff;
+        padding: 15px 30px;
+        border-radius: 5px;
+        font-size: 1.1em;
+        text-decoration: none;
+        margin-top: 20px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+      }
+
+      .download-btn:hover {
+        background-color: #3498db;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>Hello I'm,</p>
+      <h1>Ragumaran Vaithiyanathan</h1>
+      <p>Software Engineer | Full Stack Development</p>
+      <p>
+        Mail:
+        <a href="mailto:ragumaran.v@outlook.com">ragumaran.v@outlook.com</a>
+      </p>
+      <p>Cell: +91-9786172111</p>
+      <p>Working in <strong>Congruent Info-Tech</strong>, Chennai, India</p>
+    </header>
+    <section id="experience">
+      <div class="content">
+        <div class="card">
+          <p><strong>Summary</strong></p>
+          <ul>
+            <li>
+              Proficient in C#, JavaScript, and SQL programming languages with
+              hands-on experience.
+            </li>
+            <li>
+              Over 4+ years of experience in the full life cycle of web
+              development.
+            </li>
+            <li>
+              Skilled in developing Web Applications, APIs, and designing User
+              Interfaces (UI).
+            </li>
+            <li>Exposure to client-side frameworks like ReactJs and Blazor.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="download">
+      <div style="text-align: center">
+        <a href="Ragumaran_DotNet_Developer.pdf" download class="download-btn">
+          Resume</a
+        >
+      </div>
+    </section>
+    <section id="technical-expertise">
+      <h2>Technical Expertise</h2>
+      <div class="content">
+        <div class="card">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li><span>C#</span>, JavaScript, SQL, Python</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>.NET Technologies</h3>
+          <ul>
+            <li>
+              <span>.NET Versions</span>: .NET 6, .NET Core 3.1, .NET Framework
+              4.x.x
+            </li>
+            <li><span>Technologies</span>: Entity Framework, ADO.NET</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Client-side Frameworks</h3>
+          <ul>
+            <li>Angular, ReactJS, Blazor</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>UI Libraries</h3>
+          <ul>
+            <li>Telerik/Kendo UI, jQuery, Bootstrap</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Database Servers</h3>
+          <ul>
+            <li>Microsoft SQL Server</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Cloud</h3>
+          <ul>
+            <li>Azure App Services</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Architectural Patterns</h3>
+          <ul>
+            <li>MVC, Clean Architecture, N-Tier Pattern</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <ul>
+            <li><span>Source Control:</span> Git, Bitbucket, Azure Repos</li>
+            <li><span>Project Management:</span> Jira, Azure DevOps</li>
+            <li><span>Code Metric Tools:</span> SonarQube, Sonar Lint</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
